@@ -17,6 +17,8 @@ module.exports = {
                 "jpic-pink": "#FF93C7",
                 "jpic-orange": "#FF6900",
                 "jpic-aqua": "#32CAE6",
+                "jpic-less-aqua": "#27BAEC",
+                "jpic-bluer": "#0037FF"
             },
             letterSpacing: {
                 widerer: "0.075em",
@@ -25,6 +27,7 @@ module.exports = {
             blur: { xs: "0.5px" },
             scale: {
                 35: "0.35",
+                102: "1.02"
             },
             spacing: {
                 "5/6": "83.3333333%",

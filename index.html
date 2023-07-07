@@ -44,7 +44,7 @@
                 <a href="/services"
                     class="px-8 py-3 transition-all duration-200 rounded-lg bg-slate-200 hover:bg-slate-300/75 active:bg-slate-400/50">Our services</a>
                 <a href="/contact" class="bg-slate-200 px-0.5 py-0.5 rounded-lg bg-gradient-to-br from-jpic-yellow via-jpic-yellower via-30% to-jpic-orange">
-                    <div class="z-10 flex justify-center w-full h-full transition-all duration-200 ease-in-out rounded-md shadow-lg bg-slate-50 shadow-jpic-orange/40 hover:shadow-xl hover:shadow-jpic-orange/25 active:shadow-jpic-orange/40">
+                    <div class="flex justify-center w-full h-full transition-all duration-200 ease-in-out rounded-md shadow-lg bg-slate-50 shadow-jpic-orange/40 hover:shadow-xl hover:shadow-jpic-orange/25 active:shadow-jpic-orange/40">
                         <p class="my-auto">Contact us</p>
                     </div>
                 </a>
@@ -66,38 +66,41 @@
     </div>
     <div id="services" class="mx-64">
         <p class="text-5xl font-bold text-center">But what can we do <span class="text-jpic-orange">for you?</span></p>
-        <div class="grid grid-cols-2 gap-8 my-12">
-            <div class="grid grid-cols-2 transition duration-150 ease-in-out border border-gray-300 rounded-lg hover:bg-slate-200/20">
-                <img src="public/infrasec.svg" class="scale-90">
-                <div class="flex flex-col mx-4 my-auto text-center">
-                    <p class="w-full text-4xl font-bold">Infrastructure Security</p>
-                    <p class="mt-8">Your infrastructure is the digital entry point for your business, so it should be protected at all costs.<br>Guess what, that's our job.</p>
+        <div class="grid grid-cols-2 gap-8 my-16">
+            <div class="group transition duration-150 ease-in-out rounded-lg bg-gradient-to-br from-jpic-orange via-jpic-yellower via-90% to-jpic-yellow p-0.5 shadow-lg shadow-jpic-orange/40 hover:scale-102">
+                <div class="grid grid-cols-2 transition duration-150 ease-in-out rounded-md bg-slate-50 group-hover:bg-transparent group-hover:text-slate-50">
+                    <img src="public/infrasec.svg" class="scale-90">
+                    <div class="flex flex-col mx-4 my-auto text-center">
+                        <p class="w-full text-4xl font-bold">Infrastructure Security</p>
+                        <p class="mt-8">Your infrastructure is the digital entry point for your business, so it should be protected at all costs.<br>Guess what, that's our job.</p>
+                    </div>
                 </div>
             </div>
-            <div class="grid grid-cols-2 transition duration-150 ease-in-out border border-gray-300 rounded-lg hover:bg-slate-200/20">
-                <div class="flex flex-col mx-4 my-auto text-center">
-                    <p class="w-full text-4xl font-bold">Application Security</p>
-                    <p class="mt-8">Web? Mobile? IoT? We got you covered. When your employees' or your customers' data is at risk, it's our duty to make the life of hackers hard. </p>
+            <div class="group rounded-lg transition duration-150 ease-in-out bg-gradient-to-bl from-jpic-bluer via-jpic-blue via-30% to-jpic-aqua p-0.5 shadow-lg shadow-jpic-less-aqua/40 hover:scale-102">
+                <div class="grid h-full grid-cols-2 transition duration-150 ease-in-out rounded-md bg-slate-50 hover:bg-transparent hover:text-slate-50">
+                    <div class="flex flex-col mx-4 my-auto text-center">
+                        <p class="w-full text-4xl font-bold">Application Security</p>
+                        <p class="mt-8">Web? Mobile? IoT? We got you covered. When your employees' or your customers' data is at risk, it's our duty to make the life of hackers hard. </p>
+                    </div>
+                    <img src="public/appsec.svg" class="scale-90">
                 </div>
-                <img src="public/appsec.svg" class="scale-90">
             </div>
         </div>
     </div>
-    <div id="testimonial" class="mx-64 text-slate-950">
+    <div id="testimonial" class="p-20 mx-64 shadow-xl bg-neutral-900 rounded-3xl text-slate-50">
         <p class="text-5xl font-extrabold">"Only in JPIC I have seen such a <span class="text-transparent bg-clip-text bg-gradient-to-br from-jpic-yellow via-jpic-yellower via-40% to-jpic-orange">quality</span> and <span class="text-transparent bg-clip-text bg-gradient-to-br from-jpic-yellow via-jpic-yellower via-40% to-jpic-orange">passion</span> in creating tailor-made solutions for every customer, helping them to speed up their professional growth without ever compromising security threats."</p>
         <div class="flex flex-row-reverse mt-10 mr-12">
             <img src="public/massimino.jpg" class="rounded-full w-44 h-44">
-            <p class="my-auto mr-6 text-xl font-medium text-right text-slate-800">Massimo Tripodi<br>Country Manager for Italy, Veracode</p>
+            <p class="my-auto mr-6 text-xl font-medium text-right text-slate-200">Massimo Tripodi<br>Country Manager for Italy, Veracode</p>
         </div>
     </div>
     <div id="team" class="mx-64 mt-16">
         <p class="text-5xl font-bold"></p>
     </div>
-    <div id="partner" class="flex flex-col mt-32">
-        <p class="w-screen text-5xl font-bold text-center text-gray-800">Our Security Partner</p>
+    <div id="partner" class="flex flex-col my-32">
+        <p class="w-screen text-5xl font-bold text-center text-slate-950">Our Security Partner</p>
         <img src="public/veracodemameglio.png" class="w-1/4 mx-auto mt-10">
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <script src="index.js"></script>
 </body>
 </html>
