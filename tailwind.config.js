@@ -4,16 +4,17 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-    content: ["./index.html"],
+    content: ["./**/*.{html,js}"],
     theme: {
         extend: {
             fontFamily: {
                 sans: ["Inter", ...defaultTheme.fontFamily.sans],
             },
             colors: {
+                "best-aqua": "#8DE2D2",
                 "jpic-yellow": "#FFC55B",
-                "jpic-yellower": "#FFba46",
-                "jpic-blue": "#0372FF",
+                "jpic-yellower": "#FFBA46",
+                "jpic-blue": "#006FFF",
                 "jpic-pink": "#FF93C7",
                 "jpic-orange": "#FF6900",
                 "jpic-aqua": "#32CAE6",
